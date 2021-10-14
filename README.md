@@ -1,41 +1,96 @@
-
-![Herdii-API](https://telegra.ph/file/c793578cfabf67d292dd0.png)
-# Herdii - AAPI's
-<p align="center">
-<a href="https://github.com/LoliKillers/Herdii-Api/network/members" alt="GitHub stars"> <img src="https://img.shields.io/github/stars/LoliKillers/Herdii-Api?style=flat&logo=github&color=yellow" /> </a>
-<a href="https://github.com/LoliKillers/Herdii-Api/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/LoliKillers/Herdii-Api" /> </a>
-</p>
-<p align="center">
-<a href="https://github.com/LoliKillers/Herdii-Api" alt="GitHub commit activity"> <img src="https://img.shields.io/github/commit-activity/m/LoliKillers/Herdii-Api" /> </a>
-<a href="https://github.com/LoliKillers/Herdii-Api/graphs/contributors" alt="GitHub contributors"> <img src="https://img.shields.io/github/contributors/LoliKillers/Herdii-Api?style=flat&logo=github" /> </a>
-<a href="https://github.com/LoliKillers/Herdii-Api" alt="GitHub closed pull requests"> <img src="https://img.shields.io/github/issues-pr-closed-raw/LoliKillers/Herdii-Api?color=success" /> </a>
-<a href="https://github.com/LoliKillers/Herdii-Api" alt="GitHub issues"> <img src="https://img.shields.io/github/issues-raw/LoliKillers/Herdii-Api?style=flat&logo=github&color=red" /> </a>
-<a href="https://github.com/LoliKillers/Herdii-Api" alt="GitHub closed issues"> <img src="https://img.shields.io/github/issues-closed-raw/LoliKillers/Herdii-Api?style=flat&logo=github&color=success" /> </a>
-</p>
-<p align="center">
-<a href="https://github.com/LoliKillers/Herdii-Api" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/LoliKillers/Herdii-Api" /> </a>
-<a href="https://github.com/LoliKillers/Herdii-Api/blob/master/LICENSE" alt="GPLv3 license"> <img src="https://img.shields.io/github/license/LoliKillers/Herdii-Api?style=flat&logo=github&color=success" /> </a>
-</p>
-<p align="center">
-<a href="" alt="LoliKillers"> <img src="https://img.shields.io/badge/built%20by-LoliKillers-blue" /> </a>
-<a href="https://github.com/LoliKillers/Herdii-Api/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/maintained%3F-yes-blue.svg" /> </a>
-<a href="https://makeapullrequest.com" alt="PRs Welcome"> <img src="https://img.shields.io/badge/PRs-welcome-blue.svg" /> </a>
-</p>
-
-## Herdii Rest Api
-
-Repository ini saya buat hanya untuk membantu mereka yang ingin memiliki rest api website sendiri
-
-## How To Self Host
-```bash
-
-```
-
-## How To Deploy Heroku
-
-Lihat [disini](https://t.me/Arnz_Official/4)
-
-
-## Note
-- Project ini open source
-- Tidak untuk di perjual belikan
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>I LOVE U</title>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+    <link rel="manifest" href="assets/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+  </head>
+  <body onload="init()">
+    <audio id="myAudio">
+      <source src="assets/music.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="myOpening">
+      <source src="assets/opening.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <div class="preload">Tunggu Kak >< </div>
+    <div class="vidcont">
+      <div class="divvideo">
+        <video id="myVideo" width="100%" height="100%">
+          <source src="assets/video.mp4" type="video/mp4" />
+          Your browser doe`s not support HTML5 video.
+        </video>
+      </div>
+    </div>
+    <img src="assets/wp3.jpg" />
+    <div class="container">
+      <div class="myclock">
+        <div class="myakun" id="nama">
+          <span id="spannama3" onclick="gantinama()"></span>
+        </div>
+        <div class="myakun reset" onclick="reverse()">Reset</div>
+        <div class="myakun" onclick="toggleFullscreen()">Fullscreen</div>
+        <div class="contjam">
+          <div class="jam">-:-</div>
+          <div class="tanggal">-</div>
+          <div class="ucapan" onclick="carigoogle()"><span id="spannama2"></span></div>
+          <a href="https://api.whatsapp.com/send?phone=+6281314050985&text=Mauuu<3">
+        <button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px">
+     Bales WA</button></a>
+        </div>
+      </div>
+      <div class="mywindow" id="myform">
+        <div class="mycontrol">
+          <div class="myclose"></div>
+          <div class="mymini"></div>
+          <div class="mymax"></div>
+        </div>
+        <div class="myheader">
+          Hai cantikk
+        </div>
+        <div class="mybody">
+          <div class="mytitle">
+            ini privasi ya, cuma 1 orang spesial yang bisa liat ini
+          </div>
+          <div class="mycontent">
+            <div>Nama :</div>
+            <input class="mytext" type="text" id="mynama" name="nama" required />
+          </div>
+          <div class="mybutton">
+            <div class="mybuttonyes" onclick="mywrite()">oke</div>
+          </div>
+        </div>
+      </div>
+      <div class="mywindow myanimated myhide" id="mywindow">
+        <div class="mycontrol">
+          <div class="myclose" onclick="reverse()"></div>
+          <div class="mymini"></div>
+          <div class="mymax"></div>
+        </div>
+        <div class="myheader" id="mywindowheader">Hai <span id="spannama"></span> cantikk!</div>
+        <div class="mybody">
+          <div class="mytitle">
+            Pliss jawab:(
+          </div>
+          <div class="mycontent">
+            Gw suka sama lu anj, peka dikit dong.
+            Btw pacaran yok? hehe
+          </div>
+          <div class="mybutton">
+            <div class="mybuttonno" onmouseover="move()" onclick="move2()">Nggak</div>
+            <div class="mybuttonyes" onclick="playVid()">Mau</div>
+          </div>
+        </div>
+        <div class="myresize"></div>
+      </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/index.min.js"></script>
+  </body>
+</html>
