@@ -1,37 +1,96 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Herdigz/herdiganss.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Herdigz/herdiganss.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>I LOVE U</title>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+    <link rel="manifest" href="assets/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+  </head>
+  <body onload="init()">
+    <audio id="myAudio">
+      <source src="assets/music.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="myOpening">
+      <source src="assets/opening.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <div class="preload">Tunggu Kak >< </div>
+    <div class="vidcont">
+      <div class="divvideo">
+        <video id="myVideo" width="100%" height="100%">
+          <source src="assets/video.mp4" type="video/mp4" />
+          Your browser doe`s not support HTML5 video.
+        </video>
+      </div>
+    </div>
+    <img src="assets/wp3.jpg" />
+    <div class="container">
+      <div class="myclock">
+        <div class="myakun" id="nama">
+          <span id="spannama3" onclick="gantinama()"></span>
+        </div>
+        <div class="myakun reset" onclick="reverse()">Reset</div>
+        <div class="myakun" onclick="toggleFullscreen()">Fullscreen</div>
+        <div class="contjam">
+          <div class="jam">-:-</div>
+          <div class="tanggal">-</div>
+          <div class="ucapan" onclick="carigoogle()"><span id="spannama2"></span></div>
+          <a href="https://api.whatsapp.com/send?phone=+6281314050985&text=Mauuu<3">
+        <button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px">
+     Bales WA</button></a>
+        </div>
+      </div>
+      <div class="mywindow" id="myform">
+        <div class="mycontrol">
+          <div class="myclose"></div>
+          <div class="mymini"></div>
+          <div class="mymax"></div>
+        </div>
+        <div class="myheader">
+          Hai cantikk
+        </div>
+        <div class="mybody">
+          <div class="mytitle">
+            ini privasi ya, cuma 1 orang spesial yang bisa liat ini
+          </div>
+          <div class="mycontent">
+            <div>Nama :</div>
+            <input class="mytext" type="text" id="mynama" name="nama" required />
+          </div>
+          <div class="mybutton">
+            <div class="mybuttonyes" onclick="mywrite()">oke</div>
+          </div>
+        </div>
+      </div>
+      <div class="mywindow myanimated myhide" id="mywindow">
+        <div class="mycontrol">
+          <div class="myclose" onclick="reverse()"></div>
+          <div class="mymini"></div>
+          <div class="mymax"></div>
+        </div>
+        <div class="myheader" id="mywindowheader">Hai <span id="spannama"></span> cantikk!</div>
+        <div class="mybody">
+          <div class="mytitle">
+            Pliss jawab:(
+          </div>
+          <div class="mycontent">
+            Gw suka sama lu anj, peka dikit dong.
+            Btw pacaran yok? hehe
+          </div>
+          <div class="mybutton">
+            <div class="mybuttonno" onmouseover="move()" onclick="move2()">Nggak</div>
+            <div class="mybuttonyes" onclick="playVid()">Mau</div>
+          </div>
+        </div>
+        <div class="myresize"></div>
+      </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/index.min.js"></script>
+  </body>
+</html>
